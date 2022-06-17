@@ -210,9 +210,9 @@
         "filterable": true,
         "key": false,
         "retrievable": true,
-        "searchable": false,
+        "searchable": true,
         "sortable": false,
-        "analyzer": null,
+        "analyzer": "standard.lucene",
         "indexAnalyzer": null,
         "searchAnalyzer": null,
         "synonymMaps": [],
@@ -224,8 +224,9 @@
         "facetable": false,
         "filterable": true,
         "retrievable": true,
-        "searchable": true,
-        "analyzer": "standard.lucene",
+        "searchable": false,
+        "sortable": false,
+        "analyzer": null,
         "indexAnalyzer": null,
         "searchAnalyzer": null,
         "synonymMaps": [],
@@ -307,13 +308,13 @@
         "sortable": true
       },
       {
-        "name": "url",
-        "type": "Edm.String",
-        "facetable": false,
-        "filterable": true,
-        "retrievable": true,
-        "searchable": false,
-        "sortable": false
+          "name": "url",
+          "type": "Edm.String",
+          "facetable": false,
+          "filterable": true,
+          "retrievable": true,
+          "searchable": false,
+          "sortable": false
       }
     ]
   }
